@@ -4,19 +4,15 @@ import lombok.Data;
 
 /**
  * @author: huangxiang
- * @create: 2018/5/29 15:41
+ * @create: 2018/5/30 09:42
  * @description:
  */
 @Data
-public class AddUserCase {
+public class LoginCase {
 
-
+    private int id;
     private String userName;
     private String password;
-    private String sex;
-    private String age;
-    private String permission;
-    private String isDelete;
     private String expected;
 
 }
