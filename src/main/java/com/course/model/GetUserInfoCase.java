@@ -11,6 +11,6 @@ import lombok.Data;
 public class GetUserInfoCase {
 
 
-    private int userid;
+    private int userId;
     private String expected;
   }
